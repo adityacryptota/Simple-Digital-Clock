@@ -5,7 +5,7 @@
 
 body {
     color: white;
-    font-size: 500%;
+    font-size: 5rem;
 }
 
 .container {
@@ -16,3 +16,22 @@ body {
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url('https://images.unsplash.com/photo-1455595347154-05f1b433df7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
     background-position: center;
 }
+
+@media only screen and (max-width: 982px) {
+    body {
+        font-size: 4rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 729px) {
+    body {
+        font-size: 3rem;
+    }
+  }
+
+  @media only screen and (max-width: 526px) {
+    body {
+        font-size: 2rem;
+    }
+  }
